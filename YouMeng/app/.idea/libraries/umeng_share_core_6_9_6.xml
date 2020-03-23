@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="umeng-share-core-6.9.6">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/src/main/libs/umeng-share-core-6.9.6.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

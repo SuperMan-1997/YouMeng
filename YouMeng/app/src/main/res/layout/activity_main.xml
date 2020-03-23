@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.youmeng.MainActivity">
+<Button
+    android:id="@+id/app_open_share"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="打开分享面板"
+    android:onClick="onClick"
+     />
+    <CheckBox
+        android:id="@+id/check_close_editor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:checked="true"
+        android:text="是否打开分享面板"
+        />
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:stretchColumns="1.2">
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <Button
+                android:id="@+id/app_share_qq"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:onClick="onClick"
+                android:text="QQ" />
+
+            <Button
+                android:id="@+id/app_share_qzone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_column="2"
+                android:onClick="onClick"
+                android:text="QQ空间" />
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <Button
+                android:id="@+id/app_share_wx"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:onClick="onClick"
+                android:text="微信" />
+
+            <Button
+                android:id="@+id/app_share_wx_circle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_column="2"
+                android:onClick="onClick"
+                android:text="微信朋友圈" />
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <Button
+                android:id="@+id/app_share_sina"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:onClick="onClick"
+                android:text="微博" />
+        </TableRow>
+    </TableLayout>
+</LinearLayout>
